@@ -1,0 +1,20 @@
+body{
+  background:url(../images/background.jpg);
+}
+
+h1{
+  font-weight:bold;
+  color:Yellow;
+}
+.input{
+  color:white;
+}
+.mdl-textfield__input{
+    border: 1px solid yellow;
+    width:30%;
+    display:inline;
+}
+
+#newToDoText{
+  font-size:1.6em;
+}

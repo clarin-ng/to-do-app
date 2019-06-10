@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+<!-- cchange meta charset-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- MDL -->
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.amber-orange.min.css" />
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <h1> To-Do App </h1>
+
+    <form id="addToDoForm">
+      <label id="newToDoText" for="newToDoText">New To-Do:</label>
+      <input class="input mdl-card--border mdl-shadow--2dp through mdl-shadow--2dp mdl-textfield__input" type="text" id="newToDoText">
+      <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" >Add To-Do</button>
+    </form>
+
+    <ul id="toDoList">
+    </ul>
+
+    <script src="app.js"></script>
+
+  </body>
+</html>
